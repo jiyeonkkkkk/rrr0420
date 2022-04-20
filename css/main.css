@@ -1,0 +1,194 @@
+﻿@charset "UTF-8";
+
+<style>
+		/* 헤더 */
+		* {margin:0; box-sizing: border-box; font-family: "맑은 고딕";}	
+		ul, ol, li {list-style:none; margin: 0; padding: 0;}
+		header {width: 1600px; height: 80px; margin: 0 auto;}
+
+
+
+		#logo {width: 300px; height: 80px; float: left; padding: 10px 0 0 0px;}
+		#logo2 {width: 850px; height: 80px; float: right; margin: 0px 0 0 100px; margin: 0px -150px 0 0px;}
+
+		#logo2 > ul {font-size: 13px;}
+		#logo2 > ul > li {float: left; margin: 30px 10px;}
+		#logo2 > ul > li > a {text-decoration: none; color: #666;}
+		#logo2 > ul > li > a:hover {opacity: 0.8;}
+		#logo2 > ul > a > img {padding: 25px 0 0 0px;}
+
+		#login {width: 300px; height: 80px; float: right;}
+		#login > .imgbox > a > img {float: right; margin: 10px 0 0 0px; padding:10px;}
+
+		nav {width: 1260px; height: 70px; margin: 0 auto; font-weight:bold;}
+		nav > ul {font-size: 17px;}
+		nav > ul > li {float: left;  margin: 20px 70px 0 70px;}
+		nav > ul > li > a {text-decoration: none; color: #000;}
+		nav > ul > li > a:hover {color: orange;}
+
+
+
+		/* 슬라이더 */
+
+
+		#slider {width: 1663px; height: 547px; margin: 0 auto;}
+		#slider > a > img {width: 100%; height: 100%; margin: 0 auto;}
+
+
+
+		/* 메인 베스트 아이템 */
+
+
+		main {width: 1260px; height: 1000px; margin: 0 auto;}
+		#product {width:1260px; height:1200px; margin: 0 auto;}
+		#product > h1 {font-size: 22px; color: #000; text-align: center; padding:140px 0 0 0px;}
+		#product > p {text-decoration:none; color:#666; text-align:center; font-size:12px; margin:10px 0 60px 0px;}
+
+
+		#product > .box {width: 280px; height: 350px; padding: 10px; margin: 60px; display: inline-block; text-align:left; overflow: hidden;}
+
+		#product > .box > a > img {width: 260px; height: 230px;}
+		#product > .box > a > img:hover {opacity: 0.7;}
+		#product > .box > h6 > a {text-decoration:none; color:#000; text-align:center; 
+		font-size: 12px; display:inline-block;}
+		#product > .box > .cook > a {text-decoration:none; color:#666; text-align:center; font-size: 14px;}
+		#product > .box > span > a {text-decoration:none; color:#666; text-align:center; font-size:11px;}
+		
+
+		#product > .box > p > a {text-decoration:none; color:#000; text-align:center; font-size:11px;}
+		#product > .box > p {display: inline; color: orange; font-weight:bold; font-size:11px;}
+		#product > .box > .free:after {content: "무료배송"; background-color:#fff; display:inline-block; border: 1px solid #ddd; font-size: 10px; margin: 10px 0 0 0px; padding: 1px; font-size:11px;}
+		#product > .box > .new:after {content: "NEW"; background-color:orange; color: #000; display:inline-block; font-size: 10px; margin: 10px 0 0 0px; padding: 1px; font-size:11px;}
+		
+
+
+
+
+		#product > div:first-of-type {margin: 0 0 0 20px;}
+		
+		#product > div:nth-of-type(2) {margin: 0 0 0 20px;}
+
+		#product > div:nth-of-type(3) {margin: 0 0 0 20px;}
+		#product > div:nth-of-type(4) {margin:0px 0 0 20px;}
+		#product > div:nth-of-type(5) {margin:30px 0 0 20px;}
+		#product > div:nth-of-type(6) {margin:0px 0 0 20px;}
+
+		#product > div:nth-of-type(7) {margin:30px 0 0 20px;}
+		#product > div:last-of-type {margin: 30px 0 0 20px;}
+
+
+
+
+		/* 섹션 브랜드 초이스 */
+
+
+		#brand {width: 1260px; height: 800px; margin: 0 auto;}
+
+		#brand > h1 {font-size: 22px; color: #000; text-align: center; margin: 0 auto; padding:100px 100px 0 100px;}
+		#brand > p {text-decoration:none; color:#666; text-align:center; font-size:12px; margin:10px 0 60px 0px;}
+
+
+		#brand > .box {width: 280px; height: 600px; display: inline-block; margin: 10px; text-align: center; border: 1px solid #ddd;}
+
+		#brand > .box > a > img {width: 278px; height: 300px;}
+		#brand > .box > a > img:hover {opacity: 0.8;}
+
+		#brand > div:first-of-type {margin:0px 0 0 45px;}
+		#brand > div:nth-of-type(2) {margin:0px 0 0 10px;}
+		#brand > div:last-of-type {margin:0px 0 0 10px;}
+
+		#brand > .box > h3 {margin: 30px 0px;}
+		#brand > .box > p {margin: 70px 0px;}
+
+		#brand > .box > h3 > a {text-decoration: none; color: #000; text-align: center; padding: 60px 0 0 0px; margin: 50px 0 0 0px; font-size:18px;}
+		#brand > .box > h6 > a {text-decoration: none; color: #666; text-align: center;}
+		#brand > .box > p > a {text-decoration: none; color: #666; text-align: center; font-size: 7px; margin: 100px; 0 0 0px; margin: 30px 0 0 0px;}
+
+
+
+
+		/* 강아지 */
+
+
+		#love {width: 1260px; height: 550px; margin: 0 auto;}
+		#love > .box {width: 400px; height: 500px; margin: 0 auto;  padding:100px 0 0 0px;}
+		#love > a > img {width: 400px; height: 500px; margin: 0 auto;}
+
+
+
+
+
+
+
+		/* 뉴 아이템 컨텐츠 */
+
+
+		#items {width: 1260px; height: 1100px; margin: 0 auto;}
+		#contents > h1 {font-size: 22px; color: #000; text-align: center; padding:170px 100px 0 100px;}
+		#contents > p {text-decoration:none; color:#666; text-align:center; font-size:12px; margin:10px 0 60px 0px;}
+	
+
+		#contents > .box {width: 280px; height: 390px; padding: 10px; margin: 20px;display: inline-block; text-align:left; overflow: hidden;}
+		#contents > .box > a > img {width: 260px; height: 260px;}
+		#contents > .box > a > img:hover {opacity: 0.7}
+
+		#contents > .box > h6 > a {text-decoration:none; color:#000; text-align:center; font-size: 12px;}
+		#contents > .box > .cook > a {text-decoration:none; color:#666; text-align:center; font-size: 14px;}
+
+
+		#contents > .box > p > a {text-decoration:none; color:#000; text-align:center; font-size: 11px;}
+		#contents > .box > p {display: inline; color: orange; font-weight:bold; font-size: 11px;}
+		#contents > .box > span > a {text-decoration:none; color:#666; text-align:center; font-size:11px;}
+
+
+		#contents > .box > .free > p > a:after {content: "무료배송"; background-color:#fff; display:inline-block; border: 1px solid #ddd; font-size: 10px; margin: 10px 0 0 0px; padding: 3px;}
+
+		#contents > div:first-of-type {margin: -10px 0 0 20px;}
+		
+		#contents > div:nth-of-type(2) {margin: 0 0 0 20px;}
+
+		#contents > div:nth-of-type(3) {margin: 0 0 0 20px;}
+		#contents > div:nth-of-type(4) {margin: 0 0 0 20px;}
+		#contents > div:nth-of-type(5) {margin:30px 0 0 20px;}
+		#contents > div:nth-of-type(6) {margin:30px 0 0 20px;}
+
+		#contents > div:nth-of-type(7) {margin:30px 0 0 20px;}
+		#contents > div:last-of-type {margin: 30px 0 0 20px;}
+
+
+
+
+
+
+		/* 태그 */
+
+
+		#tag {width:1260px; height: 500px; margin: 0 auto;}
+		#tag > .box {width: 270px; height: 500px; margin: 40px 20px; display: inline-block; text-align:center; overflow: hidden;}
+
+		#tag > .box > h5 > a {text-decoration:none; color:#000; text-align:center; font-size: 22px;}
+		#tag > .box > h4 > a {text-decoration:none; color:#666; text-align:center; font-size: 11px;}
+		#tag > .box > h6 > a {text-decoration:none; color:#666; text-align:center; font-size: 12px;}
+		#tag > .box > a > img {width: 270px; height: 270px;}
+		#tag > .box > a > img:hover {opacity: 0.7}
+
+		#tag > .box > h5 {margin: 20px 0px;}
+		#tag > .box > h4 {margin: 20px 0px;}
+		#block {width:1260px; height: 200px; margin: 0 auto; background-color: #fff;}
+
+
+
+
+
+		/* 푸터 */
+
+
+		footer {width: 1260px; height: 210px; margin:0 auto;}
+		footer > #box > ul {font-size: 12px; width: 900px; height: 40px; float: left; margin: 30px 0 0 0px;}
+		footer > #box > ul > li {float: left; font-size: 12px; margin:5px 10px;}
+		footer > #box > ul > li > a {text-decoration: none; color: #666;}
+		footer > #box > p {float: left; width: 900px; height: 40px; line-height: 150%; margin: 10px 0 0 10px; font-size: 12px; color: #666;}
+
+		footer > #sns > a> img {float: right; margin: 70px 0 0 0px; padding: 10px;}
+
+	</style>
